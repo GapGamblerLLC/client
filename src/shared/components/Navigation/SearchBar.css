@@ -1,0 +1,17 @@
+.main-navigation__search {
+	width: 500px;
+	box-sizing: border-box;
+	border: 2px solid gray;
+	border-radius: 30px;
+	font-size: 16px;
+	background-color: #252525;
+	background-image: url('../../assets/magnifying-glass.png');
+	background-position-x: 95%;
+	background-position-y: center;
+	background-repeat: no-repeat;
+	padding: 12px 20px 12px 20px;
+}
+
+input {
+	color: white;
+}
