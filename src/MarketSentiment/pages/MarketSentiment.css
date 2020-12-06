@@ -1,0 +1,14 @@
+html {
+	background-color: black;
+}
+
+.market-page-title-container {
+	color: white;
+	background-color: black;
+	box-sizing: border-box;
+	display: flex;
+	width: 100vw;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
