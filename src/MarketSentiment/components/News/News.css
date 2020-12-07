@@ -1,0 +1,9 @@
+.news-container {
+	width: 100%;
+	height: auto;
+	border: 3px solid lightgray;
+}
+
+.news-container h1 {
+	color: white;
+}

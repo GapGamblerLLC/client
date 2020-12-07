@@ -1,0 +1,10 @@
+.watchlist-container {
+	margin: 1rem;
+	width: 20%;
+	height: 100%;
+	border: 3px solid white;
+}
+
+.watchlist-container h1 {
+	color: white;
+}

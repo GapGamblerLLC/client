@@ -1,0 +1,10 @@
+.thread-container {
+	margin: 3rem auto;
+	width: 50%;
+	height: auto;
+	border: 3px solid lightgray;
+}
+
+.thread-container h1 {
+	color: white;
+}
