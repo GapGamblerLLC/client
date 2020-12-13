@@ -2,9 +2,42 @@
 	margin: 1rem;
 	width: 20%;
 	height: 100%;
-	border: 3px solid white;
 }
 
-.watchlist-container h1 {
+.watchlist-title-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
 	color: white;
+	margin-bottom: 10%;
+}
+
+.watchlist-title-container h1 {
+	font-size: 1rem;
+}
+
+.watchlist-header-container {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	color: gray;
+	justify-content: space-evenly;
+	text-align: center;
+	margin-bottom: 8%;
+}
+
+.watchlist-header {
+	font-size: 0.8rem;
+	width: 20%;
+	color: gray;
+}
+
+.active {
+	color: white;
+	font-weight: bolder;
+}
+
+.inactive {
+	color: gray;
+	cursor: pointer;
 }

@@ -1,0 +1,22 @@
+.ticker-card-container {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	color: white;
+	justify-content: space-evenly;
+	background-color: #252525;
+	border-radius: 5px;
+	margin-top: 5px;
+}
+
+.ticker-card-container h5 div {
+	text-align: center;
+}
+
+.gapdown {
+	color: red;
+}
+
+.gapup {
+	color: green;
+}
