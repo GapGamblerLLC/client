@@ -4,7 +4,7 @@ import TickerCard from '../UIElements/TickerCard'
 import './WatchList.css';
 
 const WatchList = () => {
-  const [toggle, setToggle] = useState(false);
+  const [toggle, setToggle] = useState(true);
 
   const watchStock = {
     ticker: "GE",

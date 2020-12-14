@@ -1,9 +1,27 @@
 .news-container {
 	width: 100%;
-	height: auto;
-	border: 3px solid lightgray;
+	height: 50%;
+	background-color: #252525;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	margin-bottom: 5%;
+	box-sizing: border-box;
 }
 
-.news-container h1 {
+.news-title-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.news-title-container h1 {
+	font-size: 1rem;
 	color: white;
+	margin: 10px;
+}
+
+.news-title-container h6 {
+	color: lightgray;
+	margin: 10px;
 }
