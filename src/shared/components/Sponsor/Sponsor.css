@@ -13,12 +13,11 @@
 }
 
 .sponsor-image__container {
-	width: 20%; /*or whatever you choose*/
+	width: 20%;
 	margin: auto;
 }
-.sponsor-image__container img {
+.sponsor-logo {
 	display: block;
-	width: 100%;
-	height: auto;
+	width: 40%;
 	margin: auto;
 }

@@ -12,7 +12,7 @@ const Sponsor = (props) => {
     <div className= "sponsor__container">
       <h3 className='sponsor__title'>Sponsored by:</h3>
       <div className='sponor-image__container'>
-        <img src={ameritrade} alt='ameritrade' />
+        <img className='sponsor-logo' src={ameritrade} alt='ameritrade' />
       </div>
     </div>
   )

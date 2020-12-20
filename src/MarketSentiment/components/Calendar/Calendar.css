@@ -1,9 +1,27 @@
 .calendar-container {
 	width: 100%;
-	height: auto;
-	border: 3px solid lightgray;
+	height: 60%;
+	background-color: #252525;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	margin-bottom: 10px;
+	border-radius: 20px;
+	box-sizing: border-box;
 }
 
-.calendar-container h1 {
+.calendar-title-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 10px;
+}
+
+.calendar-title-container h1 {
+	font-size: 1rem;
 	color: white;
+}
+
+.calendar-title-container h6 {
+	color: lightgray;
 }

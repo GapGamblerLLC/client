@@ -1,11 +1,12 @@
 .news-container {
 	width: 100%;
-	height: 50%;
+	height: 60%;
 	background-color: #252525;
 	display: flex;
 	flex-direction: column;
 	overflow: hidden;
-	margin-bottom: 5%;
+	margin-bottom: 10px;
+	border-radius: 20px;
 	box-sizing: border-box;
 }
 
@@ -13,15 +14,14 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	margin: 10px;
 }
 
 .news-title-container h1 {
 	font-size: 1rem;
 	color: white;
-	margin: 10px;
 }
 
 .news-title-container h6 {
 	color: lightgray;
-	margin: 10px;
 }
