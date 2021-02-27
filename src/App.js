@@ -5,7 +5,8 @@ import './App.css';
 import MarketSentiment from './MarketSentiment/pages/MarketSentiment';
 import MainNavigation from './shared/components/Navigation/MainNavigation';
 
-function App() {
+const App = () => {
+  
   return (
     <Router>
       <MainNavigation />
